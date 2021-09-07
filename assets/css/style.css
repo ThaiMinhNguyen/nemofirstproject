@@ -36,7 +36,7 @@ html{
 
 .col-third {
     float: left;
-    display: inline-block;
+    display: block;
     width: 33.3333%;
 }
 
@@ -51,9 +51,6 @@ html{
 
 /* Main */
 
-#main{
-
-}
 
 /* Starting: NavBar */
 #header{
@@ -197,11 +194,6 @@ html{
 }
 
 
-
-
-#content{
-
-}
 
 
 
@@ -397,6 +389,8 @@ html{
     float: right;
     background-color: black;
     color: white;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 
